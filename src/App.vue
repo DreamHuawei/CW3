@@ -109,6 +109,10 @@ export default{
               this.currentComponent = ProductList;
             },
 
+            home(){
+              this.currentComponent = ProductList;
+            },
+
             
             //用于展示前端的产品数据
            initData: async function(){
@@ -159,6 +163,7 @@ export default{
           @add-item-to-cart="addToCart"
           @remove-item-from-cart="remove"
           @getCart="getCart"
+          @home="home"
         >
 
         </component>

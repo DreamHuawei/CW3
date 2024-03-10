@@ -93,7 +93,9 @@ export default{
 </script>
 
 <template>
+
     <div>
+        <div class=" btn btn-primary btn-sm" v-on:click="$emit('home')">HOME</div>
                 <div class="row restrict">
                     <div v-for="product in datas" style="width: 33.33%;" :key="product.id">
                         <div >
