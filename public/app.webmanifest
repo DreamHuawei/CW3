@@ -15,6 +15,7 @@
             "type": "image/png"
         }
     ],
+    "display": "fullscreen",
     "screenshots": [
         {
             "src": "620.png",
