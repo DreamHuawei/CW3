@@ -22,6 +22,10 @@ export default{
 
     created: function () { 
       this.initData();
+      
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("service-worker.js");
+      }
     },
 
     computed: {
