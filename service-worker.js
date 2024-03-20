@@ -1,17 +1,5 @@
 var cacheName = "coursesstore-v1";
-var cacheFiles = [
- "index.html",
- "images/Biology.png",
- "public/images/Chemistry.png",
- "public/images/Chinese.png",
- "public/images/Music.png",
- "public/images/English.png",
- "public/images/Geography.png",
- "public/images/History.png",
- "public/images/Math.png",
- "public/images/Meteorology.png",
- "public/images/Politics.png",
-];
+
 self.addEventListener("install", function(e) {
     console.log("[Service Worker] Install");
     e.waitUntil(
