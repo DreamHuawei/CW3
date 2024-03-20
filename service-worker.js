@@ -1,7 +1,7 @@
-var cacheName = "petstore-v1";
+var cacheName = "coursesstore-v1";
 var cacheFiles = [
  "index.html",
- "public/images/Biology.png",
+ "images/Biology.png",
  "public/images/Chemistry.png",
  "public/images/Chinese.png",
  "public/images/Music.png",
