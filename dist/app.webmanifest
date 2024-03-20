@@ -1,0 +1,19 @@
+{
+    "name":"Moblie-app",
+    "short_name":"CW3",
+    "start_url":"/CW3",
+    "background_color":"#21ff5c",
+    "icons": [
+        {
+            "src": "icon/192.png",
+            "size": "192*192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon/512.png",
+            "size": "512*512",
+            "type": "image/png"
+        }
+    ]
+
+}
